@@ -14,7 +14,7 @@ Config["log_report"] = { -- logs แบบ txt (โฟรเดอร์ logs)
 Config["screen_capture"] = { -- ระบบอัดแคปหน้าจอผู้เล่น (วิดีโอ)
 	
 	["enable"] = true, -- เปิดใช้งานไหม
-	["webhook"] = "", -- webhook ของที่จะเอาไว้เก็บวิดีโอ
+	["webhook"] = "$SCREEN_CAPTURE", -- webhook ของที่จะเอาไว้เก็บวิดีโอ
 	["fps"] = 30, -- fps ของวิดีโอ 30,60,144
 	["duration"] = 1 * 1000, -- อัดวิดีโอกี่วินาที
 	["resolutions"] = "720p", -- 360p,480p,720p,1080p ความคมชัดของวิดีโอ (อาจจะไม่ละเอียดมาก อยู่ที่ขนาดจอผู้เล่นด้วย)  
@@ -26,14 +26,14 @@ Config["logs"] = {
 	
     ["setting"] = {
 		
-        ["upload_api"] = "", -- ใช้สำหรับอัพโหลดภาพก่อนแจ้ง logs
-        ["logs"] = "" -- แจ้งเตือนทั่วไป
+        ["upload_api"] = "$UPLOAD_API", -- ใช้สำหรับอัพโหลดภาพก่อนแจ้ง logs
+        ["logs"] = "$LOGS" -- แจ้งเตือนทั่วไป
 		
 	},
 	
     ["detected"] = { -- แจ้งเตือนการตรวจจับต่างๆ
 		
-        ["webhook"] = "", -- จะให้แจ้งเตือนทาง discord ไหม                                                                                                                   
+        ["webhook"] = "$DETECTED", -- จะให้แจ้งเตือนทาง discord ไหม                                                                                                                   
         ["console"] = true,-- จะให้แสดงข้อมูลบน console ไหม
         ["screenshot"] = true -- จะให้แคปรูปไหม
 		
@@ -41,11 +41,11 @@ Config["logs"] = {
 	
     ["explosion"] = { -- แจ้งเตือนการระเบิดในเซิฟ
 		
-        ["webhook"] = "", -- จะให้แจ้งเตือนทาง discord ไหม                
+        ["webhook"] = "$EXPLOSION", -- จะให้แจ้งเตือนทาง discord ไหม                
         ["screenshot"] = true, -- จะให้แคปรูปไหม
         ["console"] = false, -- จะให้แสดงข้อมูลบน console ไหม
         ["delay"] = 10000, -- จะให้แจ้งเตือนทุกๆกี่วินาที
-        ["bypass"] = {     -- ชื่อระเบิดที่ไม่ต้องการให้แจ้งเตือน (สามารถดูได้จาhttps://wiki.rage.mp/index.php?title=Explosions) 
+        ["bypass"] = {     -- ชื่อระเบิดที่ไม่ต้องการให้แจ้งเตือน (สามารถดูได้จาก https://wiki.rage.mp/index.php?title=Explosions) 
             ["EXP_TAG_HI_OCTANE"] = true,
             ["EXP_TAG_DIR_WATER_HYDRANT"] = true
             -- ["EXP_TAG_MOLOTOV"] = true,
@@ -55,7 +55,7 @@ Config["logs"] = {
 	
     ["weapon"] = { -- แจ้งเตือนเกี่ยวกับอาวุธต่างๆ
 		
-        ["webhook"] = "", -- จะให้แจ้งเตือนทาง discord ไหม                
+        ["webhook"] = "$WEAPON", -- จะให้แจ้งเตือนทาง discord ไหม                
         ["screenshot"] = true, -- จะให้แคปรูปไหม
         ["console"] = true, -- จะให้แสดงข้อมูลบน console ไหม
         ["db"] = true,     -- จะให้บันทึกข้อมูลลง sql ไหม ? (2k_logs)
