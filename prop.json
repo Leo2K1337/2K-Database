@@ -9985,7 +9985,6 @@
   "-1805967585": "gr_prop_inttruck_anchor",
   "-1338916867": "imp_prop_impexp_wheel_03a",
   "-563331074": "prop_bowling_ball",
-  "-1404869155": "dt1_05_build1_damage",
   "1554295200": "cs1_lod3_terrain_slod3_01",
   "-1008818392": "ap1_lod_slod4",
   "-1327155414": "po1_lod_slod4",
@@ -10048,5 +10047,8 @@
   "-1730993301": "hei_prop_carrier_defense_01",
   "-1870804445": "hei_prop_carrier_radar_2",
   "1708919037": "xs_prop_hamburgher_wl",
-  "-461831703": "id2_lod_slod4"
+  "-109599267": "dt1_lod_slod3",
+  "-461831703": "id2_lod_slod4",
+  "-1404869155": "dt1_05_build1_damage",
+  "1857940103": "cs4_lod_04_slod2"
 }
