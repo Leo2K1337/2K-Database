@@ -71,5 +71,15 @@
   { "id": 69, "tag": "EXP_TAG_SCRIPT_DRONE" },
   { "id": 70, "tag": "EXP_TAG_RAYGUN" },
   { "id": 71, "tag": "EXP_TAG_BURIEDMINE" },
-  { "id": 72, "tag": "EXP_TAG_SCRIPT_MISSILE" }
+  { "id": 72, "tag": "EXP_TAG_SCRIPT_MISSILE" },
+  { "id": 73, "tag": "EXP_TAG_RCTANK_ROCKET" },
+  { "id": 74, "tag": "EXP_TAG_BOMB_WATER" },
+  { "id": 75, "tag": "EXP_TAG_BOMB_WATER_SECONDARY" },
+  { "id": 76, "tag": "_0xF728C4A9" },
+  { "id": 77, "tag": "_0xBAEC056F" },
+  { "id": 78, "tag": "EXP_TAG_FLASHGRENADE" },
+  { "id": 79, "tag": "EXP_TAG_STUNGRENADE" },
+  { "id": 80, "tag": "_0x763D3B3B" },
+  { "id": 81, "tag": "EXP_TAG_SCRIPT_MISSILE_LARGE" },
+  { "id": 82, "tag": "EXP_TAG_SUBMARINE_BIG" }
 ]
