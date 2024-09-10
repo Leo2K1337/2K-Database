@@ -57,6 +57,7 @@ Config["logs"] = {
         ["delay"] = 10 * sec, -- จะให้แจ้งเตือนทุกๆกี่วินาที
         ["bypass"] = {     -- ชื่อระเบิดที่ไม่ต้องการให้แจ้งเตือน (สามารถดูได้จาก https://wiki.rage.mp/index.php?title=Explosions) 
             ["EXP_TAG_HI_OCTANE"] = true,
+            ["EXP_TAG_SMOKEGRENADELAUNCHER"] = true,
             ["EXP_TAG_DIR_WATER_HYDRANT"] = true
             -- ["EXP_TAG_MOLOTOV"] = true,
 		}
